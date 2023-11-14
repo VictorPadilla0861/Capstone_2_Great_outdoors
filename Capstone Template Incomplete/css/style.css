@@ -1,8 +1,9 @@
-:root {
+/* :root {
 color: hotpink;
-}
+} */
 
-body {
+main {
     margin: 0px;
     padding: 0px;
+    background-color: blueviolet !important;
 }

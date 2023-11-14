@@ -1,8 +1,58 @@
 :root {
 color: hotpink;
 }
-
-body {
-    margin: 0px;
-    padding: 0px;
+nav {
+background-color: rgb(59, 77, 26);
 }
+body {
+    
+    background-color: rgba(129, 170, 129, 0.863);
+    margin: 0px;
+    padding: 0%;
+    
+}
+
+
+.navbar-nav a.nav-link{
+    color: rgba(255, 255, 0, 0.733);
+}
+
+.row {
+    margin-top: 495px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for text boxes in the second and fourth columns */
+.col:nth-child(2),
+.col:nth-child(4) {
+    background-color: rgb(59, 77, 26);
+    color: rgba(255, 255, 0, 0.733);
+    padding: 20px;
+    border-radius: 5px;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+

@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Project Template</title>
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/mountains.css" />
+    <title>Explore With Us</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            This is where you will add a navigation
-        </nav>
+      <nav class="nav">
+        <a href="#" class="logo">Enjoy the Outdoors</a>
 
-        <select id="mountain">
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-            <option>Mountain 1</option>
-        </select>
+        <!-- <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div> -->
 
+        <div class="nav__link hide">
+          <a href="../index.html">Home</a>
+          <a href="#">Mountains</a>
+          <a href="../parks/parks.html">Parks</a>
+        </div>
+      </nav>
     </header>
-    <main>
-        <div id="app"></div>
-        <div id="locations"></div>
-        <div id="mountains"></div>
+ 
+  
+  <div class="label-selection">
+  <h1>Mountains</h1>
+  <label for="mountain-select">Select a mountain:</label>
+  <select id="mountain-select"></select>
+</div>
+  <div id="mountain-info">
+    <p id="mountain-name"></p>
+    <p id="mountain-description"></p>
+    <p id="mountain-elevation"></p>
+    <p id="mountain-effort"></p>
+    <img id="mountain-image" src="">
+    <p id="sunrise-time"></p>
+    <p id="sunset-time"></p>
+  </div>
 
-        <div id=""></div>
 
-
-        <button onclick="loadData();">
-            click here
-        </button>
-
-    </main>
     <footer>
+      <p>&copy; 2023 Parks-N-Mountains-R-Us! All rights reserved.</p>
     </footer>
+    
     <script src="scripts/mountainData.js"></script>
-
     <script src="scripts/mountains.js"></script>
-</body>
 
+  </body>
 </html>

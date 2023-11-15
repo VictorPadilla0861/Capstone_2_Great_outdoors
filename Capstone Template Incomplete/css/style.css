@@ -1,8 +1,31 @@
-:root {
-color: hotpink;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-}
+.title {
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 40px;
+    color: rgb(93, 192, 126)
+  }
+  
+  a:hover {
+    color: rgb(93, 192, 126)
+  }
+  
+  .headers {
+    color: rgb(216, 161, 58)
+  }
+  
+  #showStates {
+    margin-top: 15px
+  }
+  
+  #tableLocation {
+    margin-top: 25px
+  }
+  
+  #tableMnt {
+    margin-top: 20px
+  }
+  
+  .select1 {
+    color: rgb(49, 102, 66);
+    font-size: 19px;
+    margin-top: 30px;
+  }

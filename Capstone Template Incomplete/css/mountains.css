@@ -20,6 +20,7 @@
   
   .nav {
     display: flex;
+    background-color: darkolivegreen;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -27,7 +28,7 @@
   
   .logo {
     font-size: 1.8rem;
-    color: lightsalmon;
+    color: goldenrod;
     padding-left: 20px;
   }
   
@@ -78,6 +79,7 @@
     .nav__link a {
       display: inline-block;
       padding: 15px 20px;
+      color: goldenrod;
     }
   
     .hamburger {
@@ -122,6 +124,7 @@
   }
   
   #mountain-image {
+    width: 400px;
     max-width: 400px;
     height: 400px;
     margin-top: 10px;
@@ -141,6 +144,7 @@
   {
 
   #mountain-image {
+    width: 200px;
     max-width: 200px;
     height: 200px;
     margin-top: 10px;
@@ -159,7 +163,7 @@
   
   
   footer {
-    background-color: lightsalmon;
+    background-color: darkolivegreen;
     color:white;
     padding: 20px;
     text-align: center;

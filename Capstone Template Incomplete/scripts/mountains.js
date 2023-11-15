@@ -29,7 +29,7 @@ function displayMountainInfo() {
   document.getElementById('mountain-description').innerHTML =`<p> <strong> Description: </strong>  ${mountain.desc} </p>`;
   document.getElementById('mountain-elevation').innerHTML = `<p> <strong> Elevation: </strong> ${mountain.elevation} meters </p>`;
   document.getElementById('mountain-effort').innerHTML = `<p> <strong> Effort: </strong> ${mountain.effort} </p>`;
-  document.getElementById('mountain-image').setAttribute('src', mountain.img);
+  document.getElementById('mountain-image').src= `images/${mountain.img}`;
 
   getSunsetForMountain(mountain.lat, mountain.lng).then(data => {
     document.getElementById('sunrise-time').innerHTML = `<p> <strong> Sunrise (UTC): </strong> ${data.sunrise} </p>`;

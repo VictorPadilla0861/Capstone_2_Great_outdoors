@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    color: green;
+
+  }
+  main {background-color: rgba(171, 206, 150, 0.61);}
+
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  a.navbar-brand{
+    color: goldenrod;
+    padding-left: 2%;
+  }
+
+  a.nav-link{
+    color: goldenrod;
+    padding-left: 3%;
+  }
+  
+  /* nav styles */
+  
+
+  .navbar{
+    background-color: darkolivegreen;
+    
+  }
+  
+  
+
+  
+
+  #parkTypeSearchForm{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+
+  button.navbar-toggler.collapsed{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+  button.navbar-toggler{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+  #searchByLocationBtn{
+    border-color: darkolivegreen;
+    height: 50px;
+  }
+
+  
+  #searchByParkTypeDropdown{
+    border-color: darkolivegreen;
+  }
+  #searchByParkTypeBtn{
+    border-color: darkolivegreen;
+    height: 50px;
+  }
+  #searchByLocationDropdown{
+    border-color: darkolivegreen;
+
+  }
+  #searchBtn{
+    border-color: darkolivegreen;
+    height: 50px;
+  }
+
+
+
+
+
+
+
+
+  
+  
+  footer {
+    background-color: darkolivegreen;
+    color:goldenrod;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0; 
+  }

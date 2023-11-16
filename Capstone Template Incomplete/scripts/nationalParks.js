@@ -41,8 +41,8 @@ else if(parkTypeRadio.checked){
 
   document.getElementById("dropdownDiv").innerHTML = `
     <form id="parkTypeSearchForm">
-    <select id="searchByParkTypeDropdown" class="w-50"></select>
-    <button type="submit" id="searchByParkTypeBtn">Search</button>
+    <select id="searchByParkTypeDropdown" class="form-select form-select-lg mb-3"></select>
+    <button type="submit" id="searchByParkTypeBtn" class="btn btn-custom">Search</button>
     </form>`;
 
   const parkTypeDropdown = document.getElementById("searchByParkTypeDropdown");
@@ -58,10 +58,10 @@ else if(parkTypeRadio.checked){
 else if(parkStateRadio.checked){
   document.getElementById("dropdownDiv").innerHTML = `
   <form id="parkTypeSearchForm">
-  <select id="searchByParkTypeDropdown" class="w-50"></select>
+  <select id="searchByParkTypeDropdown" class="form-select form-select-lg mb-3"></select>
   <select id="searchByLocationDropdown" class="form-select form-select-lg mb-3"></select>
 
-  <button type="submit" id="searchBtn">Search</button>
+  <button type="submit" id="searchBtn" class="btn btn-custom">Search</button>
   </form>`;
   const parkTypeDropdown = document.getElementById("searchByParkTypeDropdown");
   for(let index = 0; index < parkTypeArray.length; index++){

@@ -118,8 +118,10 @@ function displayParks(event){
     const name = matching[index].LocationName;
     const city = matching[index].City;
     const state = matching[index].State;
+    const zip = matching[index].ZipCode;
 
 
+    
     let phone = null;
     if(matching[index].Phone == 0){
           phone = "N/A";
@@ -155,8 +157,8 @@ function displayParks(event){
       </div>
       <br>
       <div>
-        <h6 class="card-subtitle mb-2 text-muted">${city}, ${state}</h6>
-        <p class="card-text"><strong>Contactt</strong><br>Phone: ${phone}</br><br>Fax: ${fax}</br></p>
+        <h6 class="card-subtitle mb-2 text-muted">${city}, ${state} ${zip}</h6>
+        <p class="card-text"><strong>Contact</strong><br>Phone: ${phone}<br>Fax: ${fax}</br></p>
         ${parkWebsite}
         </div></br>
       </div>

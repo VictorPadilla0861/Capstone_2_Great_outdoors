@@ -1,109 +1,103 @@
-body{
-    background-color: rgb(33, 44, 33);
-    text-align: center;
-    
-}
-.nav-bar{
-    font-weight: 900px;
-    background-color: black;
-}
-.nature-love{
-    text-decoration: green;
-
-    color: green;
-}
-
-.c-item{
-    height: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 45px;
-    font-weight: 600;   
-    
-}
-.c-img{
-    height: 100%;
-    object-fit: cover;
-    
-}
-.forma{
-    background-color: rgb(158, 236, 178);
-    width: 550px;
-    height: fit-content;
-    padding: 15px;
-    border-radius: 25px;
-    display: inline-block;
-    margin-bottom: 20px;
-    
- 
-}
-.formb{
-    background-color: rgb(158, 236, 178);
-    width: 550px;
-    height: fit-content;
-    padding: 15px;
-    border-radius: 25px;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-.about-item{
-    background-color: rgb(136, 194, 148);
-}
-.contact-item{
-    background-color: rgb(158, 236, 178);
-}
-.inputInfo {
-    list-style: none;
-    padding-left: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
-  h3 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+  body {
+    font-family: sans-serif;
+    color: green;
 
-  label {
-    display: block;
+  }
+  main {background-color: rgba(171, 206, 150, 0.61);}
+
+    h4{
+        text-align: center;
+        width: 600px;
+    }
+
+
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  a.navbar-brand{
+    color: goldenrod;
+    padding-left: 2%;
   }
 
-  select,
-  button {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
+  a.nav-link{
+    color: goldenrod;
+    padding-left: 3%;
+  }
+  
+  /* nav styles */
+  
+
+  .navbar{
+    background-color: darkolivegreen;
+    
+  }
+  
+  
+
+  
+
+  #parkTypeSearchForm{
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  button {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
+
+
+  button.navbar-toggler.collapsed{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+  button.navbar-toggler{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+  #searchByLocationBtn{
+    border-color: darkolivegreen;
+    height: 50px;
   }
 
-  ul.inputInfo {
-    list-style: none;
-    padding-left: 0;
+  
+  #searchByParkTypeDropdown{
+    border-color: darkolivegreen;
+  }
+  #searchByParkTypeBtn{
+    border-color: darkolivegreen;
+    height: 50px;
+  }
+  #searchByLocationDropdown{
+    border-color: darkolivegreen;
+
+  }
+  #searchBtn{
+    border-color: darkolivegreen;
+    height: 50px;
   }
 
-  li {
-    margin-bottom: 10px;
-  }
 
-  p {
-    font-size: 14px;
-    line-height: 1.5;
+
+
+
+
+
+
+  
+  
+  footer {
+    background-color: darkolivegreen;
+    color:goldenrod;
+    padding: 20px;
+    text-align: center;
   }
-  h1 {
-    font-style: unset;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .text-c {
-    background-color: black;
-  }
-  .text-b {
-    background-color: rgb(36, 53, 36);
-    color: black;
+  
+  footer p {
+    margin: 0; 
   }

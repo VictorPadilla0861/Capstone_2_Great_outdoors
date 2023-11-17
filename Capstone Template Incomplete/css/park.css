@@ -11,6 +11,12 @@
   }
   main {background-color: rgba(171, 206, 150, 0.61);}
 
+    h4{
+        text-align: center;
+        width: 600px;
+    }
+
+
   a {
     text-decoration: none;
     font-size: 1.2rem;

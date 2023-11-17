@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
+ body {
     font-family: sans-serif;
     background-color: rgba(171, 206, 150, 0.61);
 
@@ -30,7 +24,6 @@
 
     p{
         padding-left: 1%;
-        margin: ;
         /* width: 300px; */
         display: flex;
         justify-content: center;

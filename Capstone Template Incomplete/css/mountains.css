@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: green;
+
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  a.navbar-brand{
+    color: goldenrod;
+    padding-left: 2%;
+  }
+
+  a.nav-link{
+    color: goldenrod;
+    padding-left: 3%;
+  }
+  
+  /* nav styles */
+  
+
+  .navbar{
+    background-color: darkolivegreen;
+    
+  }
+  
+  
+  .navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    align-items: center;
+    padding-top: 20px;
+    color: goldenrod;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: goldenrod;
+    padding-left: 20px;
+  }
+  
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .nav__link {
+    position: fixed;
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: lightblue;
+  }
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav__link a:hover {
+    background-color: lightsalmon;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+      color: goldenrod;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
+
+  button.navbar-toggler.collapsed{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+  button.navbar-toggler{
+    margin-right: 3%;
+    color: goldenrod;
+  }
+
+  p.sidebar{
+    width: 300px;
+    text-align: center;
+  }
+  
+  select#mountain-select{
+    border: 1px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(180, 197, 164);
+    
+
+  }
+  /*Mountains*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(180, 197, 164);
+  }
+  
+  .label-selection h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+.label-selection > * {
+  margin-bottom: 10px;
+}
+  /* Select a mnt */
+  label {
+    font-weight: bold;
+    
+  }
+
+  div.label-selection{
+    text-align: center;
+    padding: 10px;
+
+  }
+
+
+  div.my_sidebar{
+    float: inline-start;
+    padding-left: 0%;
+    max-height: 60px;
+
+  }
+  div.container.mt-3{
+    max-width: 60%;
+  }
+ 
+    
+  p#mountain-description{
+    width: 400px;
+  }
+
+  #mountain-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 10px;
+  }
+  
+  #mountain-image {
+    width: 400px;
+    max-width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #mountain-name{
+        margin-bottom: 10px;
+        text-decoration: underline;
+  }
+  
+  #sunrise-time,
+  #sunset-time {
+    font-style: italic;
+  }
+
+
+  
+  
+  footer {
+    background-color: darkolivegreen;
+    color:goldenrod;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0; 
+  }

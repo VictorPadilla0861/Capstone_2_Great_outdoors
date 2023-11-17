@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
   }
-  
+  main{
+    background-color: darkolivegreen;
+  }
   body {
     font-family: sans-serif;
     background-color: green;

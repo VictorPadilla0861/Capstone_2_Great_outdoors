@@ -1,10 +1,10 @@
 // fetch the sunrise/sunset times for a specific mountain
 
-async function getSunsetForMountain(lat, lng) {
-  let response = await fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`);
-  let data = await response.json();
-  return data.results;
-}
+// async function getSunsetForMountain(lat, lng) {
+//   let response = await fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`);
+//   let data = await response.json();
+//   return data.results;
+// }
 
 // function to populate the dropdown list with mountain names
 

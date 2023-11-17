@@ -1,58 +1,109 @@
-:root {
-color: hotpink;
-}
-nav {
-background-color: rgb(59, 77, 26);
-}
-body {
-    
-    background-color: rgba(129, 170, 129, 0.863);
-    margin: 0px;
-    padding: 0%;
-    
-}
-
-
-.navbar-nav a.nav-link{
-    color: rgba(255, 255, 0, 0.733);
-}
-
-.row {
-    margin-top: 495px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 1;
-    padding: 10px;
+body{
+    background-color: rgb(33, 44, 33);
     text-align: center;
+    
+}
+.nav-bar{
+    font-weight: 900px;
+    background-color: black;
+}
+.nature-love{
+    text-decoration: green;
+
+    color: green;
 }
 
-/* Style for text boxes in the second and fourth columns */
-.col:nth-child(2),
-.col:nth-child(4) {
-    background-color: rgb(59, 77, 26);
-    color: rgba(255, 255, 0, 0.733);
-    padding: 20px;
-    border-radius: 5px;
+.c-item{
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 600;   
+    
 }
-.image-row {
-    display: flex;
-    justify-content: space-between;
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    
+}
+.forma{
+    background-color: rgb(158, 236, 178);
+    width: 550px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+ 
+}
+.formb{
+    background-color: rgb(158, 236, 178);
+    width: 550px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.about-item{
+    background-color: rgb(136, 194, 148);
+}
+.contact-item{
+    background-color: rgb(158, 236, 178);
+}
+.inputInfo {
+    list-style: none;
+    padding-left: 0;
   }
   
-  /* Create two equal columns that sits next to each other */
-
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 
+  select,
+  button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
 
+  button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
 
+  ul.inputInfo {
+    list-style: none;
+    padding-left: 0;
+  }
 
+  li {
+    margin-bottom: 10px;
+  }
 
-
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-style: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .text-c {
+    background-color: black;
+  }
+  .text-b {
+    background-color: rgb(36, 53, 36);
+    color: black;
+  }
